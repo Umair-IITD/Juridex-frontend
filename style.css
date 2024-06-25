@@ -1,0 +1,16 @@
+* {
+    margin: 0;
+}
+
+.logo {
+    margin-top: 15px;
+    width: 120px;
+    height: 50px;
+    margin-bottom: 15px;
+}
+
+.juridex-logo {
+    background-image: center/80% url('images/juridex-logo.png');
+    /* background-size: cover;
+    height: 50px; */
+}
