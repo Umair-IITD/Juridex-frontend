@@ -1,23 +1,200 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Juridex</title>
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
-    <header>
-        <div class="nav-bar">
-            <div class="logo">
-                <div class="juridex-logo">
-                </div>
-            </div>
-            <div class="nav-options">
-                <a href="">Home</a>
-            </div>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Juridex - Your smart legal solutions</title>
+    <link rel="stylesheet" href="style2.css" />
+    <link rel="apple-touch-icon" sizes="180x180" href="./favicon_io/apple-touch-icon.png" />
+    <link rel="icon" type="image/png" sizes="32x32" href="./favicon_io/favicon-32x32.png" />
+    <link rel="icon" type="image/png" sizes="16x16" href="./favicon_io/favicon-16x16.png" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="manifest" href="./favicon_io/site.webmanifest" />
+  </head>
+  <body>
+    <header class="section-1">
+      <nav class="nav-bar">
+        <div class="left">
+          <div class="juridex">
+            <img src="./Juridexlogo.jpeg.jpg" alt="Juridex Logo" class="logo-image" />
+            <div id="logo-text">Juridex</div>
+          </div>
         </div>
+        <div class="right">
+          <div class="options"><a href="index.html">Home</a></div>
+          <div class="options"><a href="#">About</a></div>
+          <div class="options"><a href="contact.html">Contact Us</a></div>
+          <div class="login">
+            <a href="#"><img src="./login-icon-512x500-i9s77bbz.png" alt="Login Icon" class="login-button" /></a>
+          </div>
+        </div>
+      </nav>
     </header>
-    
-</body>
+    <main class="section-2">
+      <div class="Main-Content">
+        <div class="Main-left">
+          <div class="main-text">
+            <span>Swift Justice <br />through,</span>
+            <span class="gradient-text">AI Powered<br /></span>
+            <span id="typewriter"></span>
+          </div>
+          <br /><br /><br />
+          <span id="quote">Justice Expedited. Knowledge Democratized.</span>
+          <div class="lower-section">
+            <div class="TryNow">
+              <a href="https://juridex.netlify.app/"><button>Try Out (Beta)</button></a>
+            </div>
+          </div>
+        </div>
+        <div class="Main-right">
+          <img src="./home_1gif.gif" alt="Temporary Video" class="vid" />
+        </div>
+      </div>
+    </main>
+    <footer>
+      <div class="main-page">
+        <div class="mainbox-1">
+          <div class="intro-line"><span>SINGULAR SPACE FOR FOCUSED LEGAL WORK</span></div>
+          <div class="intro-head"><h2>Ease your life?</h2></div>
+          <div class="content-feature">
+            <div class="feature-box">
+              <div class="feature-txt" onclick="location.href='#jf'">Judgment Finder</div>
+              <div class="feature-txt" onclick="location.href='#ae'">Act Explorer</div>
+            </div>
+          </div>
+          <div class="main-head"><p>Streamline your legal research with our advanced tools.</p></div>
+        </div>
+        <section class="main-content">
+          <div class="carousel">
+            <div class="card-container active">
+              <div class="left">
+                <div class="main-card" id="target">
+                  <div class="card-img" id="card-img"></div>
+                </div>
+              </div>
+              <div class="right" id="jf">
+                <div class="main-txt" id="slide-effect">
+                  <div class="main-head"><h2>Judgment Finder</h2></div>
+                  <div class="main-phrase">Some Catchy Phrase here</div>
+                  <div class="main-line">
+                    Effortlessly search through past Supreme Court judgments. Utilize our advanced semantic search technology to get the most relevant results quickly and accurately.
+                  </div>
+                  <div class="main-button"><a href="https://juridex.netlify.app/"><button>Try Now</button></a></div>
+                </div>
+              </div>
+            </div>
+            <div class="card-container" id="ae">
+              <div class="left2">
+                <div class="main-txt" id="slide-effect2">
+                  <div class="main-head"><h2>Act Explorer</h2></div>
+                  <div class="main-phrase">Some Catchy Phrase here</div>
+                  <div class="main-line">
+                    Find and analyze legal acts with ease. Leverage our semantic search and powerful LLM to get comprehensive and contextual information on various legal acts.
+                  </div>
+                  <div class="main-button"><a href="https://juridex.netlify.app/"><button>Try Now</button></a></div>
+                </div>
+              </div>
+              <div class="right2">
+                <div class="main-card2" id="target2">
+                  <div class="card-img2" id="card-img2"></div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- <div class="carousel-nav">
+            <button class="prev">&#10094;</button>
+            <button class="next">&#10095;</button>
+          </div> -->
+        </section>
+        
+        <!-- Team Section -->
+        <section class="team-section">
+          <h2>Meet Our Team</h2>
+          <div class="team-members">
+            <div class="team-member">
+              <img src="./images/anmolgoel.jpeg" alt="Anmol Goel">
+              <h3>Anmol Goel</h3>
+
+              <div class="member-info">
+                <div class="image-container">
+                  <img src="icons/brain.png" alt="Icon 1">
+                  <img src="icons/bulb.png" alt="Icon 2">
+                  <img src="icons/puzzle.png" alt="Icon 3">
+                </div>
+                <div class="text-container">
+                  <p>Tech visionary with a strong background in machine learning. Ensures our solutions are innovative and high-quality.</p>
+                  <span>#The Perfectionist | Machine Learning, IOT</span>
+                </div>
+              </div>
+            </div>
+            <div class="team-member">
+              <img src="./images/kunal.jpeg" alt="Kunal Aggarwal">
+              <h3>Kunal Aggarwal</h3>
+              <div class="member-info">
+                <div class="image-container">
+                  <img src="icons/speaker.png" alt="Icon 1">
+                  <img src="icons/people.jpg" alt="Icon 2">
+                  <img src="icons/puzzle.png" alt="Icon 3">
+                </div>
+                <div class="text-container">
+                  <p>Marketing strategist excelling in networking, user interviews, and guiding product-market fit, ensuring our success.</p>
+                  <span>#The Solver | Marketing and Networking</span>
+                </div>
+              </div>
+            </div>
+            <div class="team-member">
+              <img src="./images/ritulkumawat.jpeg" alt="Ritul Kumawat">
+              <h3>Ritul Kumawat</h3>
+
+              <div class="member-info">
+                <div class="image-container">
+                  <img src="icons/computer.png" alt="Icon 1">
+                  <img src="icons/puzzle.png" alt="Icon 2">
+                  <img src="icons/tick.png" alt="Icon 3">
+                </div>
+                <div class="text-container">
+                  <p>Tech builder with over five years of full stack development experience. Brings ideas to life quickly and efficiently.</p>
+                  <span>#The Completionist | Full Stack, DevOps</span>
+                </div>
+              </div>
+          </div>
+        </section>
+
+      </div>
+      
+      <!-- Footer -->
+      <div class="footer-main">
+        <div class="footer-container">
+          <div class="footer-left">
+              <h2>JURIDEX</h2>
+          </div>
+          <div class="footer-center">
+              <div >
+                <a href="https://in.linkedin.com/company/juridex-india" class="footer-link" style="color: white;">
+                  <img src="https://img.icons8.com/ios-filled/50/000000/linkedin.png" alt="LinkedIn Icon" class="foot-icons">
+                  Juridex India LinkedIn
+                </a>
+                
+              </div>
+              <div>
+                  <img src="https://img.icons8.com/ios-filled/50/000000/phone.png" alt="Phone Icon" class="foot-icons">
+                  +917605882154
+              </div>
+              <div>
+                  <img src="https://img.icons8.com/ios-filled/50/000000/email.png" alt="Email Icon" class="foot-icons">
+                  kunal0604@gmail.com
+              </div>
+          </div>
+          <div class="footer-right">
+              <div class="foot-button">
+                  <a href="https://juridex.netlify.app/"><button>Try Now</button></a>
+              </div>
+
+          </div>
+      </div>
+      </div>
+
+    </footer>
+    <script src="script.js"></script>
+  </body>
 </html>
